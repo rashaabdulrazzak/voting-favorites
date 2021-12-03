@@ -46775,7 +46775,7 @@ __exportStar(require("./browser-connect"), exports);
 require("error-polyfill");
 
 },{"./key_stores/browser-index":"../node_modules/near-api-js/lib/key_stores/browser-index.js","./common-index":"../node_modules/near-api-js/lib/common-index.js","./browser-connect":"../node_modules/near-api-js/lib/browser-connect.js","error-polyfill":"../node_modules/error-polyfill/index.js"}],"config.js":[function(require,module,exports) {
-const CONTRACT_NAME = "dev-1638530967804-56097808281367" || 'voying';
+const CONTRACT_NAME = "dev-1638530967804-56097808281367" || 'dev-1638530967804-56097808281367';
 
 function getConfig(env) {
   switch (env) {
@@ -68666,7 +68666,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "44625" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "42197" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
