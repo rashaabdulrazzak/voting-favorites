@@ -1,7 +1,12 @@
 voting
 ==================
+This app enables you to answer different polls and add your own polls. whenever you vote for a poll you can't vote again.
+This app was initialized with [create-near-app]
+Also it is built based on the video for [creatig voiting app](https://www.youtube.com/watch?v=sm8w9tDnMZc).
 
-This [React] app was initialized with [create-near-app]
+The addition here is to make the list of polls rendered dynamically from the contract using use effect so whenever you add a new poll it will added to list of poll dynamically. Also other data in the poll detail is rendered according to the poll information.
+
+#### Quick video of the end result [link](https://www.loom.com/share/e07b0ef76b7e4118a85ebb8a920e932a)
 
 
 Quick Start
